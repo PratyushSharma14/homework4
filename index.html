@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&display=swap" rel="stylesheet">
+    <title>Pratyush Sharma</title>
+</head>
+<body>
+    <div id=container>
+        <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. -->
+        <img src="./photo.jpeg"/>
+        <h1>Pratyush Sharma</h1>
+        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.-->
+        <h2>Education</h2>
+        <section id="education">
+            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+            <h3>Degree: <b>Bachelor</b></h3>
+            <h3>Major: <em>Computer Science</em></h3>
+            <h3>Coursework: CS61A, CS61B, CS70, CS188</h3>
+        </section>
+        <h2>Experience</h2>
+        <section id="experience">
+            <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+            <div class="experience-wrapper">
+            <div class="experience-list-item">
+                <h3>Call To Leap</h3>
+                <em>Software Engineer Intern</em>
+                <ul>
+                <li>
+                    <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                    Built static ecommerce webpages utilizing Strapi as back-end content management system, React for front-end rendering,
+                    ReactApollo API to fetch data, GraphQL as API query language, and NodeJS as server cross-platform environment.
+                </li>
+                <br />
+                <li>
+                    Dynamically populated webpages server-side for Fintech company to highlight options based on Customer tier using
+                    NextJS framework, PostgreSQL as database, JSON Web Tokens, HTTP cookies, and single-page applications.
+                </li>
+                <br />
+                <li>
+                    Created React hook which used NodeJS router to traverse URL client-side and render a popup video player with
+                    requested video fetched through PostgreSQL REST API on screen based on URL parameters.
+                </li>
+                <br />
+                <li>
+                    Enhanced several React components using User Interface Architecture in the form of a component library hosted on
+                    Storybook, and ensured proper documentation of all items to allow for easy modification and readability.
+                </li>
+                </ul>
+            </div>
+            <div class="experience-list-item">
+                <h3>Oasis</h3>
+                <em>Software Developer Intern</em>
+                <ul>
+                <li>
+                    <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                    Prototyped a Firestore database for a web application, which utilized encryption/decryption of passwords to authenticate
+                    users and Firebase Auth SDK for generating emails that allow users to change login credentials and account settings.
+                </li>
+                <br />
+                <li>
+                    Built two separate dashboards for “customers” and “drivers” which consist of separate webpages, authentication logic, and
+                    databases, to create a live food delivery system, used Firebase Realtime Database to communicate with each other.
+                </li>
+                <br />
+                <li>
+                    Created feature that utilized Stripe’s Rest API to generate promo codes that gave users discounts, and indexed into
+                    Stripe’s JSON responses to document use of promo codes in a Firestore database, to track feature’s popularity.
+                </li>
+                <br />
+                <li>
+                    Enhanced several React components using User Interface Architecture in the form of a component library hosted on
+                    Storybook, and ensured proper documentation of all items to allow for easy modification and readability.
+                </li>
+                </ul>
+            </div>
+            <div class="experience-list-item">
+                <h3>Fungi</h3>
+                <em>IOS Engineer Intern</em>
+                <ul>
+                <li>
+                    <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                    Prototyped a Firestore database for a web application, which utilized encryption/decryption of passwords to authenticate
+                    users and Firebase Auth SDK for generating emails that allow users to change login credentials and account settings.
+                </li>
+                <br />
+                <li>
+                    Built two separate dashboards for “customers” and “drivers” which consist of separate webpages, authentication logic, and
+                    databases, to create a live food delivery system, used Firebase Realtime Database to communicate with each other.
+                </li>
+                <br />
+                <li>
+                    Created feature that utilized Stripe’s Rest API to generate promo codes that gave users discounts, and indexed into
+                    Stripe’s JSON responses to document use of promo codes in a Firestore database, to track feature’s popularity.
+                </li>
+                <br />
+                <li>
+                    Enhanced several React components using User Interface Architecture in the form of a component library hosted on
+                    Storybook, and ensured proper documentation of all items to allow for easy modification and readability.
+                </li>
+                </ul>
+            </div>
+            </div>
+            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+        </section>
+        <h2>Projects</h2>
+        <section id="projects">
+            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+            <div class="project-wrapper">
+            <div class="project-list-item">
+                <h3>Ants Vs. Bees</h3>
+                <p>Built a tower defense game which required users to place various types of Ants strategically to defeat the enemy bees</p>
+            </div>
+            <div class="project-list-item">
+                <h3>Gitlet</h3>
+                <p>Implemented a Git version control system, that enabled users to initialize a repository, stage and save changes, view history
+                    of commits through a log, revert changes, branch between different versions, and merge changes from one document into
+                    another, this system gave users a way to productively manage and edit projects on their computer</p>
+            </div>
+            </div>
+            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+        </section>
+        <h2>Contact</h2>
+        <section id="contact">
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <p>You can contact me here!</p>
+            <a href="https://www.linkedin.com/in/pratyushs/"> Linkedin Link</a>
+        </section>
+    </div>
+</body>
+</html>
